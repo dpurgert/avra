@@ -111,6 +111,8 @@ struct device device_list[] =
   {  "ATmega128",       65536,     0x100,     4096,   4096, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ESPM}, // 137 - EICALL - EIJMP - ESPM = 134 (Data sheet says 133 but it's wrong)
   {   "ATmega48",        2048,     0x100,      512,    256, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
   {   "ATmega88",        4096,     0x100,     1024,    512, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
+  {   "ATmega88P",        4096,     0x100,     1024,    512, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
+  {   "ATmega88PA",        4096,     0x100,     1024,    512, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
   {  "ATmega168",        8192,     0x100,     1024,    512, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
   {  "ATmega644",       65536,     0x100,     4096,   2048, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
   { "ATmega8515",        8192,      0x60,      512,    512, DF_NO_EICALL|DF_NO_EIJMP|DF_NO_ELPM|DF_NO_ESPM},
